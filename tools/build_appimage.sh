@@ -34,7 +34,7 @@ DOTNET_CACHE="$ROOT/build/dotnet-runtime"
 DOTNET_TARBALL="$DOTNET_CACHE/dotnet-runtime-${DOTNET_RUNTIME_VERSION}-linux-x64.tar.gz"
 DOTNET_TREE="$DOTNET_CACHE/dotnet-runtime-${DOTNET_RUNTIME_VERSION}"
 
-UPDATE_INFO="${FRLG_UPDATE_INFO:-gh-releases-zsync|tornadus|frlg-ldn-trade|latest|FRLG_Studio-x86_64.AppImage.zsync}"
+UPDATE_INFO="${FRLG_UPDATE_INFO:-gh-releases-zsync|spicymanmeat|FRLG-Studio|latest|FRLG_Studio-x86_64.AppImage.zsync}"
 # The AppImage desktop id is the AppStream component id, so appimagetool
 # finds usr/share/metainfo/$APP_ID.appdata.xml.  The executable keeps the
 # short frlg-studio name used by the bundle and the AppRun.
