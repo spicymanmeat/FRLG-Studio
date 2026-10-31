@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left-to-Right Front Strand -->
+    <path d="M 35 15 C 35 50, 85 70, 85 105" />
+    
+    <!-- Right-to-Left Back Strand (with gaps for 3D crossover effect) -->
+    <path d="M 85 15 C 85 30, 75 42, 66 50" />
+    <path d="M 54 70 C 45 78, 35 90, 35 105" />
+    
+    <!-- Horizontal Connecting Base Pairs (Rungs) -->
+    <line x1="41" y1="28" x2="79" y2="28" stroke-width="5" />
+    <line x1="58" y1="43" x2="74" y2="43" stroke-width="5" />
+    <line x1="46" y1="77" x2="62" y2="77" stroke-width="5" />
+    <line x1="41" y1="92" x2="79" y2="92" stroke-width="5" />
+  </g>
+</svg>

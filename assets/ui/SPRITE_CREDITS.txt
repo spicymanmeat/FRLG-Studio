@@ -1,0 +1,17 @@
+Gen 3 ball and item sprites
+==========================
+
+Source: PokéSprite (https://github.com/msikma/pokesprite)
+Files: 32x32 PNG inventory sprites.
+
+The ball icons live in assets/ui/balls/ and use the Gen 3 ball slugs from
+src/core_data.py.  The held-item icons live in assets/ui/items/ and use the
+same item slugs; TM01-TM50 share the single tm-normal.png icon, and
+unknown.png is the fallback for an item id without a sprite.  A held Poké Ball
+is an item, but its badge resolves to assets/ui/balls/<slug>.png first, so a
+held Master Ball/Great Ball/etc. never falls back to the unknown-item icon.
+
+The sprite images are © Nintendo / Creatures Inc. / GAME FREAK Inc.  The
+PokéSprite repository's code and data are MIT-licensed, but the artwork is not.
+This project is a personal-use build; do not redistribute these files without
+checking the rights for your use.

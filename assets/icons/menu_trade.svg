@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Left Pokeball -->
+  <g stroke="#ffffff" stroke-width="5" fill="none">
+    <circle cx="26" cy="60" r="18" />
+    <path d="M 8 60 H 19 M 33 60 H 44" />
+    <circle cx="26" cy="60" r="7" />
+  </g>
+  
+  <!-- Right Pokeball -->
+  <g stroke="#ffffff" stroke-width="5" fill="none">
+    <circle cx="94" cy="60" r="18" />
+    <path d="M 76 60 H 87 M 101 60 H 112" />
+    <circle cx="94" cy="60" r="7" />
+  </g>
+
+  <!-- Top Exchange Arrow (Rightward) -->
+  <path d="M 44 42 H 66" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" />
+  <polygon points="76,42 62,32 62,52" fill="#ffffff" />
+  
+  <!-- Bottom Exchange Arrow (Leftward) -->
+  <path d="M 76 78 H 54" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" />
+  <polygon points="44,78 58,68 58,88" fill="#ffffff" />
+</svg>

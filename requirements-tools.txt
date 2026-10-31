@@ -1,0 +1,3 @@
+# Optional development tools that read files from your own game copy.
+# Not needed to run FRLG Studio, and not shipped in the AppImage.
+ndspy==4.2.0

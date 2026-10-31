@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- PC Monitor Screen Bezel -->
+  <rect x="20" y="24" width="80" height="56" rx="6" stroke="#ffffff" stroke-width="6" fill="none" />
+  
+  <!-- PC Monitor Stand -->
+  <path d="M 50 80 L 45 102 H 75 L 70 80" stroke="#ffffff" stroke-width="6" fill="none" stroke-linejoin="round" />
+  <line x1="30" y1="102" x2="90" y2="102" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Pokeball Displayed on Screen -->
+  <g stroke="#ffffff" stroke-width="5" fill="none">
+    <circle cx="60" cy="52" r="14" />
+    <path d="M 46 52 H 54 M 66 52 H 74" />
+    <circle cx="60" cy="52" r="6" />
+  </g>
+</svg>

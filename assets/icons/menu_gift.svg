@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <g stroke="#ffffff" stroke-width="6" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Main Box Base -->
+    <rect x="25" y="55" width="70" height="45" rx="3" />
+    <!-- Box Lid -->
+    <rect x="18" y="40" width="84" height="15" rx="3" />
+    
+    <!-- Vertical Ribbon -->
+    <line x1="50" y1="40" x2="50" y2="100" />
+    <line x1="70" y1="40" x2="70" y2="100" />
+    
+    <!-- Horizontal Ribbon -->
+    <line x1="25" y1="75" x2="95" y2="75" />
+    
+    <!-- Left Bow Loop -->
+    <path d="M 60 40 C 60 40, 45 20, 30 20 C 20 20, 25 35, 35 35 C 45 35, 60 40, 60 40" />
+    
+    <!-- Right Bow Loop -->
+    <path d="M 60 40 C 60 40, 75 20, 90 20 C 100 20, 95 35, 85 35 C 75 35, 60 40, 60 40" />
+    
+    <!-- Left and Right Ribbon Tails -->
+    <path d="M 55 40 Q 40 50 35 65" />
+    <path d="M 65 40 Q 80 50 85 65" />
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.tornadus.frlg_studio</id>
+  <name>FRLG Studio</name>
+  <summary>Wireless trade, storage and editing for Pokémon FireRed and LeafGreen</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-or-later</project_license>
+
+  <description>
+    <p>
+      FRLG Studio connects to a Nintendo Switch running Pokémon FireRed or
+      LeafGreen over local wireless. It provides a desktop trade screen,
+      Bill's PC storage, a .pk3 editor and a Wonder Card builder.
+    </p>
+    <p>
+      Live trading needs a supported wireless adapter and administrator access
+      for the radio. A recorded-capture rehearsal mode works without a Switch.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.tornadus.frlg_studio.desktop</launchable>
+  <provides>
+    <binary>frlg-studio</binary>
+  </provides>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>pokemon</keyword>
+    <keyword>firered</keyword>
+    <keyword>leafgreen</keyword>
+    <keyword>trade</keyword>
+    <keyword>pk3</keyword>
+  </keywords>
+
+  <url type="homepage">https://github.com/tornadus/frlg-ldn-trade</url>
+  <url type="bugtracker">https://github.com/tornadus/frlg-ldn-trade/issues</url>
+  <url type="help">https://github.com/tornadus/frlg-ldn-trade</url>
+
+  <developer id="io.github.tornadus">
+    <name>Tornadus</name>
+  </developer>
+
+  <content_rating type="oars-1.1"/>
+
+  <releases>
+    <release version="0.10.0" date="2026-10-31">
+      <description>
+        <p>
+          Adds the three-bus sound system, Bill's PC multi-select, box
+          wallpapers, encounter-aware level-up moves and legalize, summary
+          ball/item badges, and the console-timed trade stage.
+        </p>
+      </description>
+    </release>
+    <release version="0.9.0" date="2026-10-29">
+      <description>
+        <p>
+          First portable release: bundled Python, Qt, .NET and PKHeX, with
+          user data stored in the standard XDG data and config directories.
+        </p>
+      </description>
+    </release>
+  </releases>
+</component>

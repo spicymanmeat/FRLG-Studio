@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Launch FRLG Studio from a desktop shortcut or a terminal.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON="$ROOT/venv/bin/python"
+
+if [[ ! -x "$PYTHON" ]]; then
+    echo "FRLG Studio needs its virtual environment at $ROOT/venv." >&2
+    echo "Create it with: python3 -m venv venv && venv/bin/pip install -r requirements.txt PyQt6 pythonnet" >&2
+    exit 1
+fi
+
+cd "$ROOT"
+exec "$PYTHON" "$ROOT/src/trade_gui.py" "$@"

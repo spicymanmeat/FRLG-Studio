@@ -1,0 +1,37 @@
+# Runtime data.  These belong in ~/.local/share/frlg-studio, never in Git.
+*.pk3
+*.ek3
+*.sav
+*.dsv
+*.srm
+*.state
+prod.keys
+title.keys
+my_trainer.json
+custom_wondercard.json
+PCstorage/
+created/
+received/
+slot1/
+slot2/
+captures/
+journal/
+custom_cards/
+custom gifts/
+soundpack/
+.backups/
+.freebuff/
+
+# Local UI state and generated preferences.
+assets/ui/prefs.json
+assets/ui/theme.txt
+assets/ui/ui_scale.txt
+
+# Build, release and virtual-environment output.
+build/
+release/
+dist/
+venv/
+__pycache__/
+*.pyc
+*.pyo
